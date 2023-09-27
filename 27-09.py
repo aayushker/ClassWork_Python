@@ -1,10 +1,10 @@
 # 27/09/2023 
 
-
-print("Which question do you want to see?")
-print("1,2,3,4")
-entry = input("Enter your choice: ")
 while (True):
+    print("Which question do you want to see?")
+    print("1,2,3,4")
+    entry = input("Enter your choice: ")
+    
     if (entry == "1"):
         a=int(input("Enter the element"))
         b=int(input("Enter the element"))
