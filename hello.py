@@ -6,7 +6,7 @@
 #     print("Hello",i)
 #     i+=1
 
-a=int1(input("Enter the element "))
-for i in range(1,a+1):
-    print(i,end=" ")
-if 
+# a=int1(input("Enter the element "))
+# for i in range(1,a+1):
+#     print(i,end=" ")
+# if 
