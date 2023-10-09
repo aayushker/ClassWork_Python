@@ -48,3 +48,40 @@ l=s.split()
 print(l)
 d[l[0]]=l[len(l)-1]
 print(d)
+
+# prime number
+n=int(input("Enter the number"))
+for i in range(2, n):
+    if n%i==0:
+        print("Not prime")
+        break
+    else:
+        print("Prime")
+        break
+    
+# reversal of a number
+n=int(input("Enter the number"))
+rev=0
+while n>0:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+print(rev)
+
+# palindrome
+n=int(input("Enter the number"))
+temp=n
+rev=0
+while n>0:
+    rem=n%10
+    rev=rev*10+rem
+    n=n//10
+if temp==rev:
+    
+    print("Palindrome")
+else:
+    print("Not palindrome")
+    
+    
+        
+    
