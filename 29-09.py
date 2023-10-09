@@ -83,5 +83,40 @@ else:
     print("Not palindrome")
     
     
+# factorial
+n=int(input("Enter the number"))
+fact=1
+for i in range(1, n+1):
+    fact=fact*i
+print(fact)
+
+# fibonacci series
+n=int(input("Enter the number"))
+a=0
+b=1
+print(a)
+print(b)
+for i in range(2, n):
+    c=a+b
+    print(c)
+    a=b
+    b=c
+    
+# armstrong number
+n=int(input("Enter the number"))
+temp=n
+sum=0
+while n>0:
+    rem=n%10
+    sum=sum+rem*rem*rem
+    n=n//10
+if temp==sum:
+    print("Armstrong")
+else:
+    print("Not armstrong")
+    
+    
+    
+    
         
     
