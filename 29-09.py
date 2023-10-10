@@ -115,7 +115,34 @@ if temp==sum:
 else:
     print("Not armstrong")
     
-    
+# armstrong number in range
+n=int(input("Enter the number"))
+for i in range(1, n+1):
+    temp=i
+    sum=0
+    while i>0:
+        rem=i%10
+        sum=sum+rem*rem*rem
+        i=i//10
+    if temp==sum:
+        print(temp)
+        
+# reverse of a string
+s=input("Enter the string")
+l=[]
+l=s.split()
+print(l)
+l.reverse()
+print(l)
+s1=" ".join(l)
+print(s1)
+
+#sorting of a list
+l=[1, 5, 3, 2, 4]
+l.sort()
+print(l)
+
+
     
     
         
