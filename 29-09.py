@@ -25,13 +25,13 @@ s = "WELCOME"
 for i in s:
     print(i)
 
-Iterating over a set
+# Iterating over a set
 print("\nSet Iteration")
 set1 = {1, 2, 3, 4, 5, 6}
 for i in set1:
     print(i),
     
-pattern question
+# pattern question
 n=int(input("Enter the number of rows"))
 for i in range(0, n):
     for j in range( n, 0,-1):
@@ -40,7 +40,7 @@ for i in range(0, n):
             print(j, end=" ")
     print()
 
-To convert string to dictionary 
+# To convert string to dictionary 
 s = "WELCOME TO INDIA"
 l=[]
 d=dict()
@@ -67,7 +67,7 @@ while n>0:
     rev=rev*10+rem
     n=n//10
 print(rev)
-
+``
 # palindrome
 n=int(input("Enter the number"))
 temp=n
@@ -141,6 +141,17 @@ print(s1)
 l=[1, 5, 3, 2, 4]
 l.sort()
 print(l)
+
+# sorting of a list without using sort function
+l=[1, 5, 3, 2, 4]
+for i in range(0, len(l)):
+    for j in range(i+1, len(l)):
+        if l[i]>l[j]:
+            temp=l[i]
+            l[i]=l[j]
+            l[j]=temp
+print(l)
+
 
 
     
